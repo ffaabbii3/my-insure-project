@@ -1,8 +1,28 @@
-$goal-color: green;
-$goal-family: Arial;
+$width-desktop: 1440px;
+$width-mobile: 375px;
+$Dark-Violet: hsl(256, 26%, 20%);
+$Grayish-Blue: hsl(216, 30%, 68%);
+$Very-Dark-Violet: hsl(270, 9%, 17%);
+$Dark-Grayish-Violet: hsl(273, 4%, 51%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+$main-font-size: 16px;
+$head-font-family: DM Serif Display;
+$head-font-weight: 400;
+$body-font-family: Karla;
+$body-font-weight1: 400;
+$body-font-weight2: 700;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: $width-desktop;
+    height: 80px;
+    background-color: blue;
+}
 
 body {
-    background-color: $goal-color;
-    font-family: $goal-family;
-
+    background-color: $Very-Light-Gray;
 }

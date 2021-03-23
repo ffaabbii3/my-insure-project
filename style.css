@@ -1,5 +1,13 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  width: 1440px;
+  height: 80px;
+  background-color: blue; }
+
 body {
-  background-color: green;
-  font-family: Arial; }
+  background-color: #fafafa; }
 
 /*# sourceMappingURL=style.css.map */
