@@ -17,12 +17,30 @@ $body-font-weight2: 700;
     padding: 0;
 }
 
+body {
+    background: $Very-Light-Gray;
+    height: 1000px;
+ 
+ }
+
 nav {
     width: $width-desktop;
     height: 80px;
-    background-color: blue;
+    background-color:$Very-Light-Gray;
 }
 
-body {
-    background-color: $Very-Light-Gray;
+.top {
+    width: $width-desktop;
+    height: 595px;
+    background-color:$Dark-Violet;
+}
+
+#logo {
+    color: red;
+    margin-left: 145px;
+    margin-top: 25px;
+    font-family: $head-font-family;
+    font-size: $main-font-size;
+    font-weight: 700;
+
 }

@@ -2,12 +2,26 @@
   margin: 0;
   padding: 0; }
 
+body {
+  background: #fafafa;
+  height: 1000px; }
+
 nav {
   width: 1440px;
   height: 80px;
-  background-color: blue; }
-
-body {
   background-color: #fafafa; }
+
+.top {
+  width: 1440px;
+  height: 595px;
+  background-color: #2d2640; }
+
+#logo {
+  color: red;
+  margin-left: 145px;
+  margin-top: 25px;
+  font-family: DM Serif Display;
+  font-size: 16px;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
