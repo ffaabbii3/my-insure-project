@@ -17,11 +17,46 @@ nav {
   background-color: #2d2640; }
 
 #logo {
-  color: red;
+  width: 100px;
+  color: #2b272f;
   margin-left: 145px;
-  margin-top: 25px;
+  margin-top: 30px;
   font-family: DM Serif Display;
   font-size: 16px;
-  font-weight: 700; }
+  font-weight: 400;
+  letter-spacing: 1px;
+  float: left; }
+
+.menu ul {
+  float: left;
+  margin-left: 800px;
+  margin-top: -23px; }
+
+.menu ul li {
+  color: #837d87;
+  display: inline;
+  margin-right: 40px; }
+
+.menu a {
+  text-decoration: none;
+  font-family: DM Serif Display;
+  text-transform: uppercase;
+  opacity: 50%; }
+
+.menu a:hover {
+  color: #2b272f;
+  border-bottom: solid 1px #2b272f; }
+
+#topButton {
+  border: solid 1px #2b272f;
+  padding: 5px 20px;
+  opacity: 100%; }
+
+#topButton a {
+  font-size: 20px;
+  color: #2b272f; }
+
+#topButton a:hover {
+  color: #2d2640; }
 
 /*# sourceMappingURL=style.css.map */
