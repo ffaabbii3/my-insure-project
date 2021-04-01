@@ -4,24 +4,19 @@
 
 body {
   background: #fafafa;
-  height: 1000px; }
+  height: 3000px; }
 
 nav {
   width: 1440px;
   height: 80px;
   background-color: #fafafa; }
 
-.top {
-  width: 1440px;
-  height: 595px;
-  background-color: #2d2640; }
-
 #logo {
   width: 100px;
   color: #2b272f;
   margin-left: 145px;
   margin-top: 30px;
-  font-family: DM Serif Display;
+  font-family: Aria;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -39,7 +34,7 @@ nav {
 
 .menu a {
   text-decoration: none;
-  font-family: DM Serif Display;
+  font-family: Aria;
   text-transform: uppercase;
   opacity: 50%; }
 
@@ -58,5 +53,55 @@ nav {
 
 #topButton a:hover {
   color: #2d2640; }
+
+.top {
+  width: 1440px;
+  height: 595px;
+  background-color: #2d2640; }
+
+.topInformation {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 280px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 165px;
+  width: 565px;
+  height: 365px; }
+
+.topInformation h1 {
+  font-size: 82px;
+  font-family: Aria;
+  color: #fff;
+  margin-top: 60px;
+  line-height: 67px; }
+
+.topInformation h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  margin-top: 25px;
+  letter-spacing: 0.1mm; }
+
+.topInformation button {
+  width: 145px;
+  height: 35px;
+  border: solid 1px #fff;
+  text-align: center;
+  background-color: #2d2640;
+  color: #fff;
+  margin-top: 30px;
+  font-family: Roboto;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+.topPic {
+  width: 540px;
+  height: 650px;
+  float: left;
+  margin-top: 100px;
+  background-image: url(images/image-intro-mobile.jpg);
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

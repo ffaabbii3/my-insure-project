@@ -6,9 +6,9 @@ $Very-Dark-Violet: hsl(270, 9%, 17%);
 $Dark-Grayish-Violet: hsl(273, 4%, 51%);
 $Very-Light-Gray: hsl(0, 0%, 98%);
 $main-font-size: 16px;
-$head-font-family: DM Serif Display;
+$head-font-family: Aria;
 $head-font-weight: 400;
-$body-font-family: Karla;
+$body-font-family: Roboto ;
 $body-font-weight1: 400;
 $body-font-weight2: 700;
 
@@ -19,7 +19,7 @@ $body-font-weight2: 700;
 
 body {
     background: $Very-Light-Gray;
-    height: 1000px;
+    height: 3000px;
  
  }
 
@@ -27,12 +27,6 @@ nav {
     width: $width-desktop;
     height: 80px;
     background-color:$Very-Light-Gray;
-}
-
-.top {
-    width: $width-desktop;
-    height: 595px;
-    background-color:$Dark-Violet;
 }
 
 #logo {
@@ -82,4 +76,58 @@ nav {
 }
 #topButton a:hover {
     color: $Dark-Violet;
+}
+
+.top {
+    width: $width-desktop;
+    height: 595px;
+    background-color:$Dark-Violet;
+}
+
+.topInformation {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 280px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 165px;
+    width: 565px;
+    height: 365px;
+}
+.topInformation h1 {
+    font-size: 82px;
+    font-family: $head-font-family;
+    color: #fff;
+    margin-top: 60px;
+    line-height: 67px;
+}
+.topInformation h3 {
+    color: #fff;
+    font-family: $body-font-family;
+    font-size: $main-font-size;
+    margin-top: 25px;
+    letter-spacing: 0.1mm;
+}
+.topInformation button {
+    width: 145px;
+    height: 35px;
+    border: solid 1px #fff;
+    text-align: center;
+    background-color: $Dark-Violet;
+    color: #fff;
+    margin-top: 30px;
+    font-family: $body-font-family;
+    font-size: $main-font-size;
+    text-transform: uppercase;
+
+}
+
+.topPic {
+    width: 540px;
+    height: 650px;
+    float: left;
+    margin-top: 100px;
+    background-image: url(images/image-intro-mobile.jpg);
+    background-size: cover;
 }
