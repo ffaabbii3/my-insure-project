@@ -104,4 +104,41 @@ nav {
   background-image: url(images/image-intro-mobile.jpg);
   background-size: cover; }
 
+.goalInformation {
+  background-color: #95a9c6;
+  height: 850px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column; }
+
+.goalInformation h2 {
+  font-size: 72px;
+  font-family: Aria;
+  margin-top: 180px;
+  margin-left: 165px; }
+
+.goalInformation .infoMenu {
+  margin-top: 40px;
+  background-color: green;
+  height: 350px;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; }
+
+.goalInformation .infoMenu .snappy {
+  width: 370px;
+  background-color: yellow;
+  height: 100%; }
+
+.goalInformation .infoMenu .prices {
+  width: 370px;
+  background-color: pink;
+  height: 100%; }
+
+.goalInformation .infoMenu .people {
+  width: 370px;
+  background-color: orange;
+  height: 100%; }
+
 /*# sourceMappingURL=style.css.map */
